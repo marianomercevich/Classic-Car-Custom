@@ -10,30 +10,101 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <img src="../assets/img/images.png"width=150 height="100" alt="Logo">
+    <header class="navegacion"> 
         <nav>
-            <h1 class="Titulos" id="Titulo">Classic Car Repair & Restoration </h1><br> 
-                <ul class="estiloLista">
-                    <li><a href="../index.html"> Home</a></li>
-                    <li><a href="servicios.html">Servicios</a> </li>
-                    <li>Menu 
-                        <ul>
-                            <li><a href="turnos.html">Turnos</a></li><br>
-                            <li><a href="nosotros.html">Acerca de nosotros</a> </li><br>
-                            <li><a href="contactos.html">Contactenos</a> </li>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-xs-12"> 
+                    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                        <img src="../assets/img/images.png"width=150 height=100" alt="Logo">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="turnos.html">Turnos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="contactos.html">Contacto</a>
+                            </li>
                         </ul>
-                    </li>
-                </ul>
+                        </div>
+                    </nav>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <Main>
-        Main
+      <div class="col-md-10 col-xs-6">
+        <h3>Servicios </h3>
+      </div>
+        <form class="container-fluid">
+            <div class="col-md-3 col-xs-6">
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>turnos Disponibles</option>
+                    <option value="1">9 a 10 AM</option>
+                    <option value="2">10 a 11 AM</option>
+                    <option value="4">11 a 12 AM</option>
+                    <option value="5">12 a 13 PM</option>
+                    <option value="6">14 a 15 PM</option>
+                    <option value="7">15 a 16 PM</option>
+                    <option value="8">16 a 17 PM</option>
+                </select>
+            </div><br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        <p>Amplia variedad de servicios
+          En nuestro taller podrás realizar mantenimiento general, frenos, suspensión, kit de distribución, ¡entre muchos otros más servicios!.</p>
     </Main>
     <footer>
-        <h6>
-            <b>Home Usados Servicios Turnos Acerca de nosotros Contactenos</b> 
-        </h6>   
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-xs-12"> 
+                
+                <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                    <img src="../assets/img/icon social media.png"width=100 height=35" alt="Logo">
+                  <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                      <li>
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="contactos.html">Contacto</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li>
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+            </div>  
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
