@@ -1,0 +1,26 @@
+{
+  "name": "proyecto2",
+  "version": "1.0.0",
+  "description": "proyecto de sitio web taller del automotor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marianomercevich/PROYECTO-2-ENTREGABLE.git"
+  },
+  "author": "Mariano Mecevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marianomercevich/PROYECTO-2-ENTREGABLE/issues"
+  },
+  "homepage": "https://github.com/marianomercevich/PROYECTO-2-ENTREGABLE#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
