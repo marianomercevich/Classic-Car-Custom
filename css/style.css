@@ -1,15 +1,8 @@
 /* modularizacion de codigo se importa con @import */
 /* modularizacion de codigo se importa con @import */
-.animate__animated.animate__pulse {
+header nav div div div nav .textonav {
+  color: white; }
+
+header nav div div div nav .animate__animated.animate__pulse {
   --animate-duration: 2s;
   --animate-delay: 0.9s; }
-
-body {
-  background-color: #b5b1b1; }
-
-p {
-  margin: 10px;
-  text-align: justify; }
-
-form {
-  margin: 10px; }

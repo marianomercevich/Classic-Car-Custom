@@ -3,7 +3,10 @@ header {
         div{
             div{
                 div{
-                    nav{
+                    nav{ .textonav{color: white; }
+                    .animate__animated.animate__pulse {
+                        --animate-duration: 2s;
+                        --animate-delay: 0.9s;}
                         img{
 
                         }
@@ -23,4 +26,4 @@ header {
             }
         }
     }
-}/* modularizacion de codigo se importa con @import */
+}
