@@ -1,0 +1,32 @@
+footer {
+    div{
+        div{
+            div{ 
+                nav{
+                    div{ 
+                        ol {
+                            li{
+                                a{ text-decoration: none;
+                                    &:hover{ 
+                                    color:#bf2626  !important; }
+                                    color: beige;
+                                }
+                            }
+
+                        }
+
+                    }
+                    a{.bi-whatsapp{ 
+                        color: green;}
+                    .bi-instagram{
+                        color: rgb(185, 28, 143);}
+                    }
+
+                    
+                }
+                
+            }
+        }
+    }
+
+ }

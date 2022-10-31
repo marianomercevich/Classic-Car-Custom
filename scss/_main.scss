@@ -1,0 +1,39 @@
+main{
+    div{ 
+        h3{ font-size: 2rem ;
+            font-family: Roboto;
+            color: bisque;
+            font-weight: bold;
+        }
+
+    }
+    div{    
+        .animate__animated.animate__hinge {
+          --animate-duration: 2s;
+          --animate-delay: 1s; 
+            }
+        h1{ font-size: 3rem ;
+            font-family: Montserrat;
+            color: brown;
+            font-weight: bold;
+
+        }
+    }
+    div{
+        font-family: Roboto;
+        h5{
+            font-size: 1.5rem ;
+            font-family: Roboto;
+            color: bisque;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+            
+        p{
+            text-indent: 70px;
+            font-family: Noto;
+            color:beige;
+            
+        }
+    }
+}

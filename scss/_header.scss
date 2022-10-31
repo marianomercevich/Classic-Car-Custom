@@ -1,13 +1,25 @@
 header {
     nav{
         div{
+            img{
+
+            }
+            button{
+                span{}
+            }
             div{
-                div{
-                    nav{ 
-                        .textonav{color: white; }
-                        .animate__animated.animate__pulse {--animate-duration: 2s;--animate-delay: 0.9s;}
-                                                
+                ul{ 
+                    li{ font-family:noto ;
+                        font-weight: bolder;
+                        
+                        a{ 
+                        &:hover{ 
+                            color:#bf2626  !important; }
+                         color: beige !important; 
+                        }
                     }
+                                                                
+                    
                 }
             }
         }

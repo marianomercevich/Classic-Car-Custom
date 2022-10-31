@@ -1,7 +1,48 @@
-/* modularizacion de codigo se importa con @import */
-header nav div div div nav .textonav {
-  color: white; }
+main div h3 {
+  font-size: 2rem;
+  font-family: Roboto;
+  color: bisque;
+  font-weight: bold; }
 
-header nav div div div nav .animate__animated.animate__pulse {
+main div .animate__animated.animate__hinge {
   --animate-duration: 2s;
-  --animate-delay: 0.9s; }
+  --animate-delay: 1s; }
+
+main div h1 {
+  font-size: 3rem;
+  font-family: Montserrat;
+  color: brown;
+  font-weight: bold; }
+
+main div {
+  font-family: Roboto; }
+  main div h5 {
+    font-size: 1.5rem;
+    font-family: Roboto;
+    color: bisque;
+    font-weight: bold;
+    text-decoration: underline; }
+  main div p {
+    text-indent: 70px;
+    font-family: Noto;
+    color: beige; }
+
+header nav div div ul li {
+  font-family: noto;
+  font-weight: bolder; }
+  header nav div div ul li a {
+    color: beige !important; }
+    header nav div div ul li a:hover {
+      color: #bf2626  !important; }
+
+footer div div div nav div ol li a {
+  text-decoration: none;
+  color: beige; }
+  footer div div div nav div ol li a:hover {
+    color: #bf2626  !important; }
+
+footer div div div nav a .bi-whatsapp {
+  color: green; }
+
+footer div div div nav a .bi-instagram {
+  color: #b91c8f; }
