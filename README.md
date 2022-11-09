@@ -4,4 +4,4 @@ secciones de servicios varios.
 utilizacion de html 5, con framwork boostrap 5.1 css3
 con aplicacion de preprosesador SASS, mediante NodeJs y nodemon 
 aplicacion de seo
-githab page
+github page
