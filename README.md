@@ -8,10 +8,10 @@ aplicacion de seo
 <<<<<<< HEAD
 githab page
 ----
-idea de proyecto escalable 
-registro e inicio de usuarios
-recopilacion de datos mediante bs
-animaciones en js por agragar
+idea de proyecto escalable. 
+registro e inicio de usuarios.
+recopilacion de datos mediante bd.
+animaciones en js por agragar.
 
 =======
 github page
